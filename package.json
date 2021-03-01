@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "json-server": "^0.16.3",
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "server": "json-server --watch db.json",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoodLuckMister/server.git"
+  },
+  "keywords": [],
+  "author": "Alexey Piskarov <paet14@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoodLuckMister/server/issues"
+  },
+  "homepage": "https://github.com/GoodLuckMister/server#readme",
+  "description": ""
+}
